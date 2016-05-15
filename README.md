@@ -1,27 +1,30 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer Jekyll Version](http://startbootstrap.com/template-overviews/freelancer/)
+Agency Jekyll theme
+====================
 
-[Freelancer Jekyll Version](http://startbootstrap.com/template-overviews/1-col-portfolio/) is a Jekyll build for the Freelancer portfolio theme based on [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
 
-## Getting Started
+# How to use
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* Fork the repo
+###Portfolio 
 
-## Bugs and Issues
+Portfolio projects are in '/_posts'
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+Images are in '/img/portfolio'
 
-## Creator
+###About
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Images are in '/img/about/'
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+###Team
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Team members and info are in '_config.yml'
 
-## Copyright and License
+Images are in '/img/team/'
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll/blob/gh-pages/LICENSE) license.
+
+# Demo
+
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)
