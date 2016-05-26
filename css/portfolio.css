@@ -11,7 +11,9 @@ a, a:hover, a:focus, a:active, a.active {color:#1874cd; }
 
 .portfolio-modal .close-modal { width:50px; height:50px; right:35px; }
 
-.portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl { height:50px; }
+.portfolio-modal .close-modal:hover { opacity:0.5; }
+
+.portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl { height:50px; background-color:#444; }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover { background-color:rgba(255,255,255,0.75); }
 
