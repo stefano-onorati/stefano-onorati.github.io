@@ -53,9 +53,9 @@ footer {padding: 50px 0; background-color:#111;}
 
 .button-div { width:50%; float:left;margin-top:5px; }
 
-.carousel-indicators li { border-color:#1874cd; background-color:#1e90ff; width:16px; height:16px; border-radius:8px; }
+.carousel-indicators li { border-color:#1874cd; background-color:#CAE1FF; width:16px; height:16px; border-radius:8px; }
 
-.carousel-indicators .active { background-color:#fff;border-color:#1e90ff; width:20px; height:20px; border-radius:10px;}
+.carousel-indicators .active { background-color:#fff;border-color:#1874cd; width:20px; height:20px; border-radius:10px;}
 
 @media (max-width:719px) and (min-width:570px) {
 .third-button { width:50%; }
