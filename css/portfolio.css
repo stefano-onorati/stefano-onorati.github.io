@@ -59,11 +59,7 @@ footer {padding: 50px 0; background-color:#111;}
 
 .carousel-indicators .active { background-color:#B0E2FF;border-color:#1874cd; width:20px; height:20px; border-radius:10px;}
 
-@media (max-width:719px) and (min-width:570px) {
-.third-button { width:50%; }
-}
-
-@media (max-width:569px) {
+@media (max-width:719px) {
 .third-button { width:100%; }
 }
 
