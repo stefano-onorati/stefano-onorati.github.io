@@ -5,6 +5,8 @@ header { background-image:none; background-color:#1874cd; }
 
 a, a:hover, a:focus, a:active, a.active {color:#1874cd; }
 
+.btn {font-size:13px; }
+
 section h2.section-heading, footer h3 { margin-top:10px; }
 
 .navbar-default .navbar-collapse { border-color:#777; }
