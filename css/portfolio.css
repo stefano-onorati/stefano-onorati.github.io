@@ -125,7 +125,7 @@ header .intro-text {padding-top: 150px; padding-bottom:100px; }
 
 }
 
-@media (max-width:380px) {
+@media (max-width:400px) {
 
 .button-div { width:100%; }
 
