@@ -124,3 +124,9 @@ header .intro-text {padding-top: 150px; padding-bottom:100px; }
 .navbar-default.navbar-shrink { background-color:#111; }
 
 }
+
+@media (max-width:380px) {
+
+.button-div { width:100%; }
+
+}
