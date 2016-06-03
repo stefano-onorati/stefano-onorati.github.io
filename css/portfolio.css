@@ -71,6 +71,8 @@ footer {padding: 50px 0; background-color:#111;}
 
 .quicklinks li a:hover { color:#1874cd; text-decoration:none; }
 
+img.heading-img { width:200px; border-radius:100px; }
+
 @media (max-width:719px) {
 .third-button { width:100%; }
 }
@@ -110,6 +112,8 @@ footer {padding:70px 0; }
 }
 */
 @media (min-width:768px) {
+
+img.heading-img { width:300px; border-radius:150px;}
 
 header .intro-text .intro-heading { font-size:70px; line-height:110px; }
 
