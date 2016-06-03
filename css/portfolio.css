@@ -111,6 +111,15 @@ footer {padding:70px 0; }
 .portfolio-modal .close-modal {right:3%;}
 }
 */
+
+@media (max-width:400px) {
+
+.button-div { width:100%; }
+
+img.heading-img { width:100px; border-radius:50px;}
+
+}
+
 @media (min-width:768px) {
 
 img.heading-img { width:300px; border-radius:150px;}
@@ -126,13 +135,5 @@ header .intro-text {padding-top: 150px; padding-bottom:100px; }
 .navbar-default { background-color:#111; padding:10px 0; }
 
 .navbar-default.navbar-shrink { background-color:#111; }
-
-}
-
-@media (max-width:400px) {
-
-.button-div { width:100%; }
-
-img.heading-img { width:100px; border-radius:50px;}
 
 }
