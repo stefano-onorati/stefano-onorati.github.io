@@ -1,3 +1,5 @@
+/* * { -webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s; } */
+
 body, .portfolio-modal .modal-content p.item-intro, #portfolio .portfolio-item .portfolio-caption p,
 section h3.section-subheading { font-family:'PT Sans'; }
 
@@ -123,6 +125,16 @@ div#middle.col-md-4 { margin-top:25px; }
 .button-div { width:100%; }
 
 img.heading-img { width:150px; border-radius:75px;}
+
+header .intro-text .intro-heading { font-size:40px; }
+
+.portfolio-modal .modal-content h2, section h2.section-heading { font-size:30px; }
+
+footer h3 { font-size:21px; }
+
+.portfolio-modal .close-modal { width:40px; height:40px; right:25px;}
+
+.portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl {height:40px; }
 
 }
 
