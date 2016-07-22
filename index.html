@@ -56,16 +56,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a class="page-top" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll about" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll portfolio" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll contact" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -868,22 +868,14 @@ This was my final project for the Digital Media program at York University.  <a 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	
 	<script>
-  $(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-        alert("THIS : " + location.pathname + " | " + this.pathname);
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 800);
-          return false;
-        }
-      }
-    });
-  });
+    $(".about").click(function() {
+    		$('html, body').animate({
+    		scrollTop: $("#about").offset().top
+    		}, 800);
+		});
 	</script>
+	
+	
 
 </body>
 
