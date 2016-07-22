@@ -874,7 +874,7 @@ This was my final project for the Digital Media program at York University.  <a 
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
-        alert("THIS : " + this.pathname);
+        alert("THIS : " + this.value);
           $('html, body').animate({
             scrollTop: target.offset().top
           }, 800);
