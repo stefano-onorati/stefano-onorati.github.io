@@ -867,70 +867,7 @@ This was my final project for the Digital Media program at York University.  <a 
 	<!-- Script used from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	
-	<script>
-  $(function() {
-    $('a[href*="#about"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 800);
-          return false;
-        }
-      }
-    });
-  });
-  
-  $(function() {
-    $('a[href*="#portfolio"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-        alert("THIS : " + this.pathname);
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 800);
-          return false;
-        }
-      }
-    });
-  });
-  
-  $(function() {
-    $('a[href*="#contact"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-        alert("THIS : " + this.pathname);
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 800);
-          return false;
-        }
-      }
-    });
-  });
-  
-  $(function() {
-    $('a[href*="#page-top"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-        alert("THIS : " + this.pathname);
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 800);
-          return false;
-        }
-      }
-    });
-  });
-	</script>
+	<script src="js/scroll.js"></script>
 </body>
 
 </html>
