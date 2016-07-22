@@ -1,5 +1,5 @@
   $(function() {
-    $('a[href*="#about"]').click(function() {
+    $('a[href="#about"]').click(function() {
     var target = $(this.hash);
     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
      $('html, body').animate({
@@ -10,46 +10,34 @@
   });
   
   $(function() {
-    $('a[href*="#portfolio"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
+    $('a[href="#portfolio"]').click(function() {
+     var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     $('html, body').animate({
             scrollTop: target.offset().top
           }, 800);
           return false;
-        }
-      }
     });
   });
   
   $(function() {
-    $('a[href*="#contact"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
+    $('a[href="#contact"]').click(function() {
+     var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     $('html, body').animate({
             scrollTop: target.offset().top
           }, 800);
           return false;
-        }
-      }
     });
   });
   
   $(function() {
-    $('a[href*="#page-top"]').click(function() {
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
+    $('a[href="#page-top"]').click(function() {
+     var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     $('html, body').animate({
             scrollTop: target.offset().top
           }, 800);
           return false;
-        }
-      }
     });
   });
