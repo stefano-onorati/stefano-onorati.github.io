@@ -29,7 +29,7 @@ section h2.section-heading, footer h3 { margin-top:10px; letter-spacing:1.5px;}
 
 .fa { margin-top: 10px; }
 
-fa-header-img { margin-top:30px; }
+.fa-header-img { margin-top:30px; }
 
 .fa-eye:before, .fa-comment-o:before, .fa-cogs:before, .fa-envelope-o:before, .fa-globe:before { color:#1874cd; }
 
