@@ -21,6 +21,9 @@
     
     <!-- Custom CSS for Portfolio -->
     <link href="css/portfolio.css" rel="stylesheet">
+    
+    <!-- Custom CSS for Portfolio -->
+    <script src=”js/jquery.mobile.custom.min.js”></script>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -266,6 +269,16 @@ Skills: Web Development, HTML5, CSS3, JavaScript, Digital Media, Java, C#, Unity
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
+	<script>  
+	$(document).ready(function() {  
+   	$("#one").swiperight(function() {  
+      $("#one").carousel('prev');  
+    	});  
+   	$("#one").swipeleft(function() {  
+   	   $("#one").carousel('next');  
+   	});  
+	});  
+	</script>
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
