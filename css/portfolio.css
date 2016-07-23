@@ -1,6 +1,6 @@
 /* * { -webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s; } */
 
-body, .portfolio-modal .modal-content p.item-intro, #portfolio .portfolio-item .portfolio-caption p,
+body, .portfolio-modal .modal-content p.item-intro, #so_portfolio .portfolio-item .portfolio-caption p,
 section h3.section-subheading { font-family:'PT Sans'; }
 
 header { background-image:url(../img/map-image.png); background-color:#1874cd; }
@@ -17,7 +17,7 @@ section h2.section-heading, footer h3 { margin-top:10px; letter-spacing:1.5px;}
 
 /*.intro-lead-in { margin-top:-125px; } */
 
-#portfolio .portfolio-item .portfolio-caption p.text-muted.sub-mute { margin-top:-7px; }
+#so_portfolio .portfolio-item .portfolio-caption p.text-muted.sub-mute { margin-top:-7px; }
 
 .portfolio-modal .close-modal { width:50px; height:50px; right:35px; }
 
@@ -25,7 +25,7 @@ section h2.section-heading, footer h3 { margin-top:10px; letter-spacing:1.5px;}
 
 .portfolio-modal .close-modal .lr, .portfolio-modal .close-modal .lr .rl { height:50px; background-color:#444; }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover { background-color:rgba(255,255,255,0.75); }
+#so_portfolio .portfolio-item .portfolio-link .portfolio-hover { background-color:rgba(255,255,255,0.75); }
 
 .fa { margin-top: 10px; }
 
