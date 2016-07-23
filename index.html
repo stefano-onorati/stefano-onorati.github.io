@@ -866,10 +866,20 @@ This was my final project for the Digital Media program at York University.  <a 
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script>
-	$('a[href*=#so_]').on('click', function(event){     
-    	event.preventDefault();
-    	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
+	$(function() {
+  $('a[href*="#so_"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 	</script>
 </body>
 
