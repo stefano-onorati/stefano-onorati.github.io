@@ -278,13 +278,13 @@ Skills: Web Development, HTML5, CSS3, JavaScript, Digital Media, Java, C#, Unity
             <div class="container">
             <h2>Bicycle Race</h2>
             <p class="item-intro text-muted">Interactive Racing Game | December 2013</p>
-  <div id="car_one" class="carousel slide" data-ride="carousel" data-interval="0">
+  <div id="one" class="carousel slide" data-ride="carousel" data-interval="0">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#car_one" data-slide-to="0" class="active"></li>
-      <li data-target="#car_one" data-slide-to="1"></li>
-      <li data-target="#car_one" data-slide-to="2"></li>
-      <li data-target="#car_one" data-slide-to="3"></li>
+      <li data-target="#one" data-slide-to="0" class="active"></li>
+      <li data-target="#one" data-slide-to="1"></li>
+      <li data-target="#one" data-slide-to="2"></li>
+      <li data-target="#one" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -344,15 +344,15 @@ Skills: Web Development, HTML5, CSS3, JavaScript, Digital Media, Java, C#, Unity
             <div class="container">
             <h2>Improv Soir&eacute;e Visualizer</h2>
             <p class="item-intro text-muted">Music Visualizer | November 2014</p>
-  <div id="car_two" class="carousel slide" data-ride="carousel" data-interval="0">
+  <div id="two" class="carousel slide" data-ride="carousel" data-interval="0">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#car_two" data-slide-to="0" class="active"></li>
-      <li data-target="#car_two" data-slide-to="1"></li>
-      <li data-target="#car_two" data-slide-to="2"></li>
-      <li data-target="#car_two" data-slide-to="3"></li>
-      <li data-target="#car_two" data-slide-to="4"></li>
-      <li data-target="#car_two" data-slide-to="5"></li>
+      <li data-target="#two" data-slide-to="0" class="active"></li>
+      <li data-target="#two" data-slide-to="1"></li>
+      <li data-target="#two" data-slide-to="2"></li>
+      <li data-target="#two" data-slide-to="3"></li>
+      <li data-target="#two" data-slide-to="4"></li>
+      <li data-target="#two" data-slide-to="5"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -789,22 +789,22 @@ This was my final project for the Digital Media program at York University.  <a 
     <script src="js/jquery.mobile.custom.min.js"></script>
     <script>  
 	$(document).ready(function() {  
-   		$("#car_one").swiperight(function() {  
-      		$("#car_one").carousel('prev');  
+   		$("#one").swiperight(function() {  
+      		$("#one").carousel('prev');  
     		});  
-   		$("#car_one").swipeleft(function() {  
-   	  		$("#car_one").carousel('next');  
+   		$("#one").swipeleft(function() {  
+   	  		$("#one").carousel('next');  
    			});  
 	});  
 	</script>
 	
 	<script>  
 	$(document).ready(function() {  
-   		$("#car_two").swiperight(function() {  
-      		$("#car_two").carousel('prev');  
+   		$("#two").swiperight(function() {  
+      		$("#two").carousel('prev');  
     		});  
-   		$("#car_two").swipeleft(function() {  
-   	  		$("#car_two").carousel('next');  
+   		$("#two").swipeleft(function() {  
+   	  		$("#two").carousel('next');  
    			});  
 	});  
 	</script>
@@ -867,7 +867,7 @@ This was my final project for the Digital Media program at York University.  <a 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>
 	$(function() {
-  $('a[href*="#so_"]:not([href^="#car_"])').click(function() {
+  $('a[href*="#so_"]:not(.carousel-control)').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
