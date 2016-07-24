@@ -1,6 +1,6 @@
 /* * { -webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s; } */
 
-p { font-size:16px; }
+p, .list-inline>li { font-size:16px; }
 
 header .intro-text .sub-heading { font-size:40px; line-height:110px; font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; text-transform: uppercase; font-weight: 700; margin-top: -50px; }
 
