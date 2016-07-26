@@ -77,7 +77,7 @@ footer {padding: 50px 0; background-color:#111;}
 
 .carousel-indicators .active { background-color:#B0E2FF;border-color:#1874cd; width:20px; height:20px; border-radius:10px;}
 
-.quicklinks li a { font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; letter-spacing:1px; color:#fff; }
+.quicklinks li a { font-family:'PT Sans',sans-serif; letter-spacing:1px; color:#fff; font-weight:700;}
 
 .quicklinks li a:hover { color:#1874cd; text-decoration:none; }
 
