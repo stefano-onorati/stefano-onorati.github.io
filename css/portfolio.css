@@ -7,7 +7,7 @@ header .intro-text .sub-heading { font-size:40px; line-height:110px; font-family
 section h3.section-subheading { font-size:17px; }
 
 body, .portfolio-modal .modal-content p.item-intro, #so_portfolio .portfolio-item .portfolio-caption p,
-section h3.section-subheading { font-family:'PT Sans'; }
+section h3.section-subheading { font-family:'PT Sans', sans-serif; }
 
 header { background-image:url(../img/map-image.png); background-color:#1874cd; }
 
@@ -61,7 +61,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 footer span.copyright, footer h3 { color:#fff; }
 
-footer span.copyright, footer ul.quicklinks { line-height:20px; font-family:'PT Sans'; font-size:16px; }
+footer span.copyright, footer ul.quicklinks { line-height:20px; font-family:'PT Sans', sans-serif; font-size:16px; }
 
 footer {padding: 50px 0; background-color:#111;}
 
