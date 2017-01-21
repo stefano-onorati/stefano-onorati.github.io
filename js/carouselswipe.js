@@ -59,4 +59,13 @@
    		$("#seven").swipeleft(function() {  
    	  		$("#seven").carousel('next');  
    			});  
+	}); 
+	
+	$(document).ready(function() {  
+   		$("#eight").swiperight(function() {  
+      		$("#eight").carousel('prev');  
+    		});  
+   		$("#eight").swipeleft(function() {  
+   	  		$("#eight").carousel('next');  
+   			});  
 	});  
