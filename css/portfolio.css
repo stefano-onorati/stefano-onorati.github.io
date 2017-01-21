@@ -75,7 +75,7 @@ footer {padding: 50px 0; background-color:#111;}
 
 .button-div { width:50%; float:left;margin-top:5px; }
 
-.button-div-1 { width:100%; }
+.button-div-5 { width:50%; }
 
 .carousel-indicators li { border-color:#1874cd; background-color:#CAE1FF; width:16px; height:16px; border-radius:8px; cursor:default; }
 
@@ -123,7 +123,7 @@ span.glyphicon.glyphicon-chevron-left, span.glyphicon.glyphicon-chevron-right { 
 
 .button-div-2 { width:50%; }
 
-.button-div-1 { width:100%; }
+.button-div-5 { width:20%; }
 }
 
 @media (min-width:992px) {
