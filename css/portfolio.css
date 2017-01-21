@@ -87,8 +87,6 @@ footer {padding: 50px 0; background-color:#111;}
 
 img.heading-img { width:40%; border-radius:50%; }
 
-.mobilenote { margin-top:10px; font-size:12px; display:block; }
-
 .carousel-control.left { background-image: -webkit-linear-gradient(left,rgba(24,116,205,.5) 0,rgba(0,0,0,.0001) 100%);
     background-image: -o-linear-gradient(left,rgba(24,116,205,.5) 0,rgba(0,0,0,.0001) 100%);
     background-image: -webkit-gradient(linear,left top,right top,from(rgba(24,116,205,.5)),to(rgba(0,0,0,.0001)));
