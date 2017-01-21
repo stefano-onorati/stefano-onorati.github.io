@@ -106,6 +106,8 @@ img.heading-img { width:40%; border-radius:50%; }
 span.glyphicon.glyphicon-chevron-left, span.glyphicon.glyphicon-chevron-right { color:#fff; text-shadow:0px 0px 5px #777;}
 
 @media (max-width:719px) {
+.item img { width:100%; }
+
 .third-button { width:100%; }
 }
 
