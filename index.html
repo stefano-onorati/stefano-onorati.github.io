@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>UNDER CONSTRUCTION</title>
-</head>
-<body>
-<h1>Site Under Construction</h1>
-</body>
-</html>
+---
+layout: home
+meta: The home page of Stefano Onorati's portfolio.
+---
+
+{% assign sorted = site.pages | sort: 'index' | reverse %}
+{% for project in sorted limit: 3 %}
+	{% if project.category == 'project' %}
+        {% include portfolio/portfolio-container.html title=project.title url=project.url type=project.type dates=project.dates top-icon=project.top-icon %}
+	{% endif %}
+{% endfor %}

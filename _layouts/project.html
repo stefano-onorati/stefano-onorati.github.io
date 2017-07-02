@@ -1,0 +1,74 @@
+---
+layout: base
+---
+<section id="section-project" class="text-center">
+<div class="container">
+	<div class="row">
+    	<div class="col-sm-10 col-sm-offset-1">
+    		<i class="fa {{page.top-icon}} fa-3x fa-header-img"></i>
+        	<h2 class="section-heading">{{page.title}}</h2>
+            <h3 class="item-intro text-muted top-sub-mute">
+            	{{page.type}}
+            </h3>
+            <h3 class="item-intro text-muted sub-mute">
+            	{{page.dates}}
+            </h3>
+		</div>
+	</div>
+	<div class="row">
+	<div class="col-sm-8 col-sm-offset-2">
+ 		<div id="slideshow" class="carousel slide" data-ride="carousel" data-interval="5000">
+    		<ol class="carousel-indicators">
+    		{% assign title = page.title %}
+    		{% for organization in site.data.imgs %}
+    			{% if organization.organization == page.title %}
+    			{% for img in organization.imgs%}
+    				{% assign loopindex = forloop.index0 %}
+    					<li data-target="#slideshow" data-slide-to="{{loopindex}}" class="{% if loopindex == 0 %}active{% endif %}"></li>
+    				{% endfor %}
+    				{% endif %}
+	    		{% endfor %}
+    		</ol>
+    	<div class="carousel-inner">
+    	{% for organization in site.data.imgs %}
+    		{% if organization.organization == page.title %}
+    			{% for img in organization.imgs %}
+				{% assign loopindex = forloop.index0 %}
+    				<div class="item {% if loopindex == 0 %}active{% endif %}">
+        				<img src="{{site.baseurl}}{{img.imgurl}}" alt="{{page.title}}-{{loopindex}}" >
+     			</div>
+     			{% endfor %}
+    			{% endif %}
+    	{% endfor %}
+    	</div>
+  	</div>
+</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-10 col-sm-offset-1">
+	<p class="paragraph-project">{{content}}</p>
+    	<p><strong><em>TOOLS USED</em>: {{page.tools}}</strong></p>
+        <ul class="list-inline">
+        	<li><em>Authors</em>: {{page.authors}}</li>
+            <li><em>Purpose of Project</em>: {{page.purpose}}</li>
+        </ul>
+    	{% for organization in site.data.btns %}
+    	{% if organization.organization == page.title %}
+    		{% for btn in organization.buttons %}
+       			<div class="button-div {% if page.links_available == 5 %}button-div-5{% endif %} {% if page.links_available == 2 %}button-div-2{% endif %} {% if page.links_available == 4 %}button-div-4{% endif %}">
+       			<a href="{{btn.link}}" target="_blank">
+       				<button type="button" class="btn btn-primary">
+       					<i class="fa {{btn.btn-icon}} fa-portfolio"></i> {{btn.title}}
+       				</button>
+       			</a>
+       			</div>
+       		{% endfor %}
+       	{% endif %}
+       	{% endfor %}
+       </div>
+</div>
+            </div>
+    	</div>
+	</div>
+</section>

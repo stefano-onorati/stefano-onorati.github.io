@@ -1,0 +1,18 @@
+	<div class="col-md-4 col-sm-6 portfolio-item">
+    	<a href="{{site.baseurl}}{{include.url}}" class="portfolio-link" data-toggle="modal">
+    		<div class="portfolio-hover">
+            	<div class="portfolio-hover-content">
+            		<i class="fa {{include.top-icon}} fa-2x"></i>
+                	<h4>{{include.title}}</h4>
+    				<p class="text-muted">{{include.type}}</p>
+    				<p class="text-muted sub-mute">{{include.dates}}</p>
+    				
+               	</div>
+            </div>
+        {% for org in site.data.imgs %}
+        	{% if org.organization == include.title %}
+	    		<img src="{{site.baseurl}}{{org.coverimg}}" class="img-responsive" alt="{{include.title}}">
+    		{% endif %}
+    	{% endfor %} 
+        </a>
+</div>

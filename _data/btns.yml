@@ -1,0 +1,96 @@
+- organization: Audible Shapes
+  buttons:
+    - title: Github
+      link: https://github.com/AudibleShapes/AudibleShapes
+      btn-icon: fa-github-alt
+    - title: Tumblr
+      link: http://audibleshapes.tumblr.com/
+      btn-icon: fa-tumblr
+    - title: Youtube
+      link: https://www.youtube.com/watch?v=yCSbUMaXlQM
+      btn-icon: fa-youtube-play
+    - title: Victor's Page
+      link: http://victorzohni.com/project/audible-shapes
+      btn-icon: fa-link
+
+- organization: Bicycle Race
+  buttons:
+    - title: Github
+      link: https://github.com/stefano-onorati/BicycleRace
+      btn-icon: fa-github-alt
+    - title: Tumblr
+      link: https://stefanoonorati.tumblr.com/tagged/BicycleRaceProject
+      btn-icon: fa-tumblr 
+      
+- organization: Da Capo
+  buttons:
+    - title: Github
+      link: https://github.com/stefano-onorati/DaCapo
+      btn-icon: fa-github-alt
+    - title: Live Site
+      link: http://dacapomusicstudio.com/
+      btn-icon: fa-link 
+      
+- organization: DisPerSion Lab
+  buttons:
+    - title: Github
+      link: https://github.com/stefano-onorati/DisPerSionLab
+      btn-icon: fa-github-alt
+    - title: Live Site
+      link: http://www.dispersionlab.org/
+      btn-icon: fa-link
+      
+- organization: Improv Soirée Visualizer
+  buttons:
+    - title: Github
+      link: https://github.com/stefano-onorati/ImprovVisualizer
+      btn-icon: fa-github-alt
+    - title: Tumblr
+      link: http://onorati4931.tumblr.com/tagged/visualizer
+      btn-icon: fa-tumblr 
+    - title: Flickr
+      link: https://www.flickr.com/photos/yorkudigitalmedia/sets/72157649012287138/
+      btn-icon: fa-flickr
+    - title: Vimeo
+      link: https://vimeo.com/album/3142770/video/113106067
+      btn-icon: fa-vimeo
+
+- organization: IVG Weather
+  buttons:
+    - title: Github
+      link: https://github.com/stefano-onorati/IVGWeather
+      btn-icon: fa-github-alt
+    - title: Live Site
+      link: http://onorati4931.tumblr.com/post/118389705440/datt-4931-weathertwitter-ivg-project-and-final
+      btn-icon: fa-tumblr 
+      
+- organization: La Spiaggia
+  buttons:
+    - title: Github
+      link: https://github.com/stefano-onorati/LaSpiaggia
+      btn-icon: fa-github-alt
+    - title: Live Site
+      link: http://laspiaggiasalon.ca/
+      btn-icon: fa-link 
+      
+- organization: Perle Systems
+  buttons:
+    - title: EN Site
+      link: https://www.perle.com/
+      btn-icon: fa-link
+    - title: FR Site
+      link: https://www.perlesystems.fr/
+      btn-icon: fa-link
+    - title: IT Site
+      link: https://www.perlesystems.it/
+      btn-icon: fa-link
+    - title: DE Site
+      link: https://www.perlesystems.de/
+      btn-icon: fa-link
+    - title: ES Site
+      link: https://www.perlesystems.es/
+      btn-icon: fa-link
+
+
+      
+
