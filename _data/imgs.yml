@@ -1,66 +1,66 @@
 - organization: Audible Shapes
   imgs:
-    - imgurl: /img/portfolio/AudibleShapes/AudibleShapes0.jpg
-    - imgurl: /img/portfolio/AudibleShapes/AudibleShapes1.jpg
-    - imgurl: /img/portfolio/AudibleShapes/AudibleShapes2.jpg
-    - imgurl: /img/portfolio/AudibleShapes/AudibleShapes3.jpg
-    - imgurl: /img/portfolio/AudibleShapes/AudibleShapes4.jpg
-  coverimg: /img/portfolio/AudibleShapes/AudibleShapesCover.jpg
+    - imgurl: img/portfolio/AudibleShapes/AudibleShapes0.jpg
+    - imgurl: img/portfolio/AudibleShapes/AudibleShapes1.jpg
+    - imgurl: img/portfolio/AudibleShapes/AudibleShapes2.jpg
+    - imgurl: img/portfolio/AudibleShapes/AudibleShapes3.jpg
+    - imgurl: img/portfolio/AudibleShapes/AudibleShapes4.jpg
+  coverimg: img/portfolio/AudibleShapes/AudibleShapesCover.jpg
 
 - organization: Bicycle Race
   imgs:
-    - imgurl: /img/portfolio/BicycleRace/BicycleRace1.jpg
-    - imgurl: /img/portfolio/BicycleRace/BicycleRace2.jpg
-    - imgurl: /img/portfolio/BicycleRace/BicycleRace3.jpg
-    - imgurl: /img/portfolio/BicycleRace/BicycleRace4.jpg
-  coverimg: /img/portfolio/BicycleRace/BicycleRaceCover.jpg
+    - imgurl: img/portfolio/BicycleRace/BicycleRace1.jpg
+    - imgurl: img/portfolio/BicycleRace/BicycleRace2.jpg
+    - imgurl: img/portfolio/BicycleRace/BicycleRace3.jpg
+    - imgurl: img/portfolio/BicycleRace/BicycleRace4.jpg
+  coverimg: img/portfolio/BicycleRace/BicycleRaceCover.jpg
 
 - organization: Da Capo
   imgs:
-    - imgurl: /img/portfolio/DaCapo/DaCapo1.jpg
-    - imgurl: /img/portfolio/DaCapo/DaCapo2.jpg
-    - imgurl: /img/portfolio/DaCapo/DaCapo3.jpg
-    - imgurl: /img/portfolio/DaCapo/DaCapo4.jpg
-    - imgurl: /img/portfolio/DaCapo/DaCapo5.jpg
-  coverimg: /img/portfolio/DaCapo/DaCapoCover.jpg
+    - imgurl: img/portfolio/DaCapo/DaCapo1.jpg
+    - imgurl: img/portfolio/DaCapo/DaCapo2.jpg
+    - imgurl: img/portfolio/DaCapo/DaCapo3.jpg
+    - imgurl: img/portfolio/DaCapo/DaCapo4.jpg
+    - imgurl: img/portfolio/DaCapo/DaCapo5.jpg
+  coverimg: img/portfolio/DaCapo/DaCapoCover.jpg
 
 - organization: DisPerSion Lab
   imgs:
-    - imgurl: /img/portfolio/DisPerSionLab/DisPerSionLab0.jpg
-    - imgurl: /img/portfolio/DisPerSionLab/DisPerSionLab1.jpg
-    - imgurl: /img/portfolio/DisPerSionLab/DisPerSionLab2.jpg
-  coverimg: /img/portfolio/DisPerSionLab/DisPerSionLabCover.jpg
+    - imgurl: img/portfolio/DisPerSionLab/DisPerSionLab0.jpg
+    - imgurl: img/portfolio/DisPerSionLab/DisPerSionLab1.jpg
+    - imgurl: img/portfolio/DisPerSionLab/DisPerSionLab2.jpg
+  coverimg: img/portfolio/DisPerSionLab/DisPerSionLabCover.jpg
   
 - organization: Improv Soirée Visualizer
   imgs:
-    - imgurl: /img/portfolio/ImprovVisualizer/ImprovVis1.jpg
-    - imgurl: /img/portfolio/ImprovVisualizer/ImprovVis2.jpg
-    - imgurl: /img/portfolio/ImprovVisualizer/ImprovVis3.jpg
-    - imgurl: /img/portfolio/ImprovVisualizer/ImprovVis4.jpg
-    - imgurl: /img/portfolio/ImprovVisualizer/ImprovVis5.jpg
-    - imgurl: /img/portfolio/ImprovVisualizer/ImprovVis6.jpg
-  coverimg: /img/portfolio/ImprovVisualizer/ImprovVisCover.jpg
+    - imgurl: img/portfolio/ImprovVisualizer/ImprovVis1.jpg
+    - imgurl: img/portfolio/ImprovVisualizer/ImprovVis2.jpg
+    - imgurl: img/portfolio/ImprovVisualizer/ImprovVis3.jpg
+    - imgurl: img/portfolio/ImprovVisualizer/ImprovVis4.jpg
+    - imgurl: img/portfolio/ImprovVisualizer/ImprovVis5.jpg
+    - imgurl: img/portfolio/ImprovVisualizer/ImprovVis6.jpg
+  coverimg: img/portfolio/ImprovVisualizer/ImprovVisCover.jpg
     
 - organization: IVG Weather
   imgs:
-    - imgurl: /img/portfolio/IVGWeather/IVG1.jpg
-    - imgurl: /img/portfolio/IVGWeather/IVG2.jpg
-    - imgurl: /img/portfolio/IVGWeather/IVG3.jpg
-  coverimg: /img/portfolio/IVGWeather/IVGCover.jpg
+    - imgurl: img/portfolio/IVGWeather/IVG1.jpg
+    - imgurl: img/portfolio/IVGWeather/IVG2.jpg
+    - imgurl: img/portfolio/IVGWeather/IVG3.jpg
+  coverimg: img/portfolio/IVGWeather/IVGCover.jpg
 
 - organization: La Spiaggia
   imgs:
-    - imgurl: /img/portfolio/LaSpiaggia/LaSpiaggia1.jpg
-    - imgurl: /img/portfolio/LaSpiaggia/LaSpiaggia2.jpg
-    - imgurl: /img/portfolio/LaSpiaggia/LaSpiaggia3.jpg
-    - imgurl: /img/portfolio/LaSpiaggia/LaSpiaggia4.jpg
-  coverimg: /img/portfolio/LaSpiaggia/LaSpiaggiaCover.jpg
+    - imgurl: img/portfolio/LaSpiaggia/LaSpiaggia1.jpg
+    - imgurl: img/portfolio/LaSpiaggia/LaSpiaggia2.jpg
+    - imgurl: img/portfolio/LaSpiaggia/LaSpiaggia3.jpg
+    - imgurl: img/portfolio/LaSpiaggia/LaSpiaggia4.jpg
+  coverimg: img/portfolio/LaSpiaggia/LaSpiaggiaCover.jpg
 
 - organization: Perle Systems
   imgs:
-    - imgurl: /img/portfolio/Perle/Perle1.jpg
-    - imgurl: /img/portfolio/Perle/Perle2.jpg
-    - imgurl: /img/portfolio/Perle/Perle3.jpg
-    - imgurl: /img/portfolio/Perle/Perle4.jpg
-    - imgurl: /img/portfolio/Perle/Perle5.jpg
-  coverimg: /img/portfolio/Perle/PerleCover.jpg
+    - imgurl: img/portfolio/Perle/Perle1.jpg
+    - imgurl: img/portfolio/Perle/Perle2.jpg
+    - imgurl: img/portfolio/Perle/Perle3.jpg
+    - imgurl: img/portfolio/Perle/Perle4.jpg
+    - imgurl: img/portfolio/Perle/Perle5.jpg
+  coverimg: img/portfolio/Perle/PerleCover.jpg
