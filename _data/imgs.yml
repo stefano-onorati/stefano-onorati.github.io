@@ -30,7 +30,7 @@
     - imgurl: img/portfolio/DisPerSionLab/DisPerSionLab1.jpg
     - imgurl: img/portfolio/DisPerSionLab/DisPerSionLab2.jpg
   coverimg: img/portfolio/DisPerSionLab/DisPerSionLabCover.jpg
-  
+
 - organization: Improv Soirée Visualizer
   imgs:
     - imgurl: img/portfolio/ImprovVisualizer/ImprovVis1.jpg
@@ -40,7 +40,7 @@
     - imgurl: img/portfolio/ImprovVisualizer/ImprovVis5.jpg
     - imgurl: img/portfolio/ImprovVisualizer/ImprovVis6.jpg
   coverimg: img/portfolio/ImprovVisualizer/ImprovVisCover.jpg
-    
+
 - organization: IVG Weather
   imgs:
     - imgurl: img/portfolio/IVGWeather/IVG1.jpg

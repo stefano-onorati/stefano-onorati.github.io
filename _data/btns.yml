@@ -20,8 +20,8 @@
       btn-icon: fa-github-alt
     - title: Tumblr
       link: https://stefanoonorati.tumblr.com/tagged/BicycleRaceProject
-      btn-icon: fa-tumblr 
-      
+      btn-icon: fa-tumblr
+
 - organization: Da Capo
   buttons:
     - title: Github
@@ -29,8 +29,8 @@
       btn-icon: fa-github-alt
     - title: Live Site
       link: http://dacapomusicstudio.com/
-      btn-icon: fa-link 
-      
+      btn-icon: fa-link
+
 - organization: DisPerSion Lab
   buttons:
     - title: Github
@@ -39,7 +39,7 @@
     - title: Live Site
       link: http://www.dispersionlab.org/
       btn-icon: fa-link
-      
+
 - organization: Improv Soirée Visualizer
   buttons:
     - title: Github
@@ -47,7 +47,7 @@
       btn-icon: fa-github-alt
     - title: Tumblr
       link: http://onorati4931.tumblr.com/tagged/visualizer
-      btn-icon: fa-tumblr 
+      btn-icon: fa-tumblr
     - title: Flickr
       link: https://www.flickr.com/photos/yorkudigitalmedia/sets/72157649012287138/
       btn-icon: fa-flickr
@@ -62,8 +62,8 @@
       btn-icon: fa-github-alt
     - title: Live Site
       link: http://onorati4931.tumblr.com/post/118389705440/datt-4931-weathertwitter-ivg-project-and-final
-      btn-icon: fa-tumblr 
-      
+      btn-icon: fa-tumblr
+
 - organization: La Spiaggia
   buttons:
     - title: Github
@@ -71,8 +71,8 @@
       btn-icon: fa-github-alt
     - title: Live Site
       link: http://laspiaggiasalon.ca/
-      btn-icon: fa-link 
-      
+      btn-icon: fa-link
+
 - organization: Perle Systems
   buttons:
     - title: EN Site
@@ -90,7 +90,3 @@
     - title: ES Site
       link: https://www.perlesystems.es/
       btn-icon: fa-link
-
-
-      
-
